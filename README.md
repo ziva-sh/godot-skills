@@ -49,7 +49,7 @@ The script extracts every fenced code block labelled `gdscript` from every `SKIL
 
 Current result on Godot 4.7.2: 20 `gdscript` snippets parse and 3 `gdscript-godot3` snippets fail as expected. Please run it before sending a change.
 
-Loading: on 10 November 2026 all six skills loaded in Ziva with `/skill:<name>` from both `.agents/skills/` and `.ziva/skills/`; the session log showed each `SKILL.md` body sent to the model unchanged. In the one chat we ran without `/skill`, the model answered without opening the matching skill, so load a skill by name when you want it used for sure.
+Loading: on 10 November 2026 all six skills loaded in Ziva with `/skill:<name>` from both `.agents/skills/` and `.ziva/skills/`; the session log showed each `SKILL.md` body sent to the model unchanged. In the one chat we ran without `/skill`, the model answered without opening the matching skill, so load a skill by name when you want it used for sure. On 11 November 2026, in Claude Code 2.1.318 after `npx skills add ziva-sh/godot-skills -a claude-code -y`, all six loaded unchanged with `/<skill-name>`, and in both chats we ran without a slash command Claude Code picked the matching skill by itself.
 
 ## License
 
